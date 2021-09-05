@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    /* new rem /10 */
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: #5E6164;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Russo One', sans-serif;
+    color: #23293B;
+}
+
+.navbar {
+    display: block;
+    text-align: center;
+    font-size: 1.6rem;
+    background-color: #F4F4F4;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar {
+    color: #23293B;
+}
+
+.navbar h1 {
+    font-size: 4rem;
+    margin: 2rem 0;
+}
+
+.navbar a {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #23293B;
+
+}
+
+.navbar nav {
+    margin: 1rem;
+    place-items: center;
+
+}
+
+.header-img img {
+    margin-top: 12rem;
+    max-width: 100%;
+}
+
+.home-content {
+    place-items: center;
+    margin: 0 2rem;
+}
+
+
+.intro h2{
+    font-size: 3rem;
+    margin: 1.2rem 0;
+}
+
+.intro p {
+    font-size: 1.6rem;
+    margin: 1.5rem 0;
+}
+
+.space-img img {
+    display: block;
+    place-items: center;
+    max-width: 100%;
+    border-radius: 0.5rem;
+
+}
+
+.sky {
+    display: none;
+
+}
+
+.launch {
+    display: none;
+}
+
+.btn {
+    font-size: 2.0rem;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #F4F4F4;
+    padding: 2rem;
+    margin: 2rem;
+    background-color: #22283A;
+    border-radius: 0.5rem;
+}
+
+footer {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
