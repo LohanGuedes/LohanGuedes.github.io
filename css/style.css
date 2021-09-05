@@ -91,8 +91,7 @@ h3 {
 }
 
 .blast {
-    min-width: 100%
-
+    min-width: 100%;
 }
 
 .sky {
@@ -104,6 +103,25 @@ h3 {
     display: none;
 }
 
+@media ( min-width: 960px ) {
+    .space-img {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        max-width: 33%;
+        gap: 2rem;
+        margin: 0 4rem;
+    }
+    .blast {
+        min-width: auto;
+    }
+    .sky {
+        display: inherit;
+    }
+    .launch {
+        display: inherit;
+    }
+}
 
 .visit h2 {
     font-size: 3rem;
@@ -113,6 +131,15 @@ h3 {
 .visit p {
     font-size: 1.6rem;
     margin: 1.5rem 0;
+}
+
+@media (min-width: 960px) {
+    .home-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
 }
 
 .walk h3 {
@@ -144,6 +171,7 @@ h3 {
     border-radius: 0.5rem;
 }
 
+
 footer {
     font-size: 1.2rem;
     text-align: center;
@@ -151,4 +179,3 @@ footer {
     width: 100%;
 
 }
-
