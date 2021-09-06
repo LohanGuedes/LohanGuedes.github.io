@@ -137,15 +137,16 @@ h3 {
 
 @media (min-width: 960px) {
     .home-content {
+
         display: flex;
         flex-direction: column;
         place-items: center;
         max-width: 100%;
         margin: 0 16.5%;
-        border: 2px solid red;
     }
 
     .intro, .visit {
+
         place-content: center;
         max-width: 75%;
     }
@@ -188,24 +189,39 @@ h3 {
         flex: row;
         justify-content: center;
         max-width: 100%;
-        margin: 0 12.5%;
-        border: 2px solid yellow;
+        margin: 2.5rem 12.5%;
+        padding: 2.5rem 0 0 0;
+        border-top: 1px solid #DEE2E6;
     }
 
-    .walk img {
-        width: 20%;
-        height: 20%;
-        order: 3;
+
+    .walk-text {
+        margin: 1rem;
+        width: 100%;
+    }
+
+
+    .walk-img {
+        margin: 1rem;
+        order: 2;
+        width: 50%;
+        height: 50%;
+        width: 100%;
     }
 
     .btn {
-        order: 2;
+        width: 35%;
+        margin: 0;
+        padding: 1rem;
     }
+
+
 }
 
 footer {
     font-size: 1.2rem;
     text-align: center;
+    margin-top: 3rem;
     margin-bottom: 1.5rem;
     width: 100%;
 
